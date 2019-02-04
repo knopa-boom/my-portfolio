@@ -1,0 +1,458 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+button {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1172px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  /* background: url('https://pp.userapi.com/c846523/v846523264/dba94/TY8tlHXAGgs.jpg'); */
+  background: url('https://scontent.fhrk2-1.fna.fbcdn.net/v/t1.0-1/p240x240/35180985_957274907813208_8708159695740731392_n.jpg?_nc_cat=103&_nc_ht=scontent.fhrk2-1.fna&oh=dba9b536f2f4e76d516b42935d1b5f30&oe=5CF54F72');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.description {
+  margin-left: 9px;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  color: #2b2a2c;
+}
+.description_small {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a696b;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  color: #2b2a2c;
+  margin-right: 35px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.menu-list__link:after {
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  height: 2px;
+  width: 0%;
+  margin-top: 10px;
+  background-color: #000;
+  transition: width .3s ease-in-out;
+}
+
+.menu-list__link:hover:after {
+    width: 100%;
+ }
+
+.menu-button {
+  font-size: 14px;
+  font-weight: 800;
+  color: #2b2a2c;
+  background: transparent;
+  border: 2px solid #2b2a2c;
+  border-radius: 45px;
+  padding: 13px 22px;
+  cursor: pointer;
+}
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  color: #2b2a2c;
+  background: url('https://wmpics.pics/di-S0QBN060.jpg') no-repeat right bottom;
+/*   background: url('https://wmpics.pics/di-CFIR.png') right bottom no-repeat; */
+  background-size: contain;
+}
+
+.hero-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  color: #6a696b;
+  font-size: 18px;
+}
+
+.hero-social {
+  margin-top: 30px;
+}
+
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+
+.behance-bg {
+  background-color: #1869ff;
+}
+
+.facebook-bg {
+  background-color: #3a5898;
+}
+
+.instagram-bg {
+  background-color: #13578a;
+}
+
+.vk-bg {
+  background-color: #56acef;
+}
+
+.hero-buttons {
+  margin-top: 40px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+/*   border: 1px solid #6a696b; */
+
+}
+
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+
+.projects {
+  padding: 97px 0;
+}
+
+.project-card__image {
+  height: 300px;
+}
+
+
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.landing-page {
+  background: url('http://www.deltatravel.com.ua/wp-content/uploads/2016/05/Landing-page.jpg') no-repeat center ;
+  background-size: cover;
+}
+
+.two-page {
+  background: url('https://ivbg.ru/wp-content/uploads/2018/11/предприниматели.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.three-page {
+  background: url('http://u-f.ru/sites/default/files/6_147.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.four-page {
+  background: url('https://lantrix.com.ua/wp-content/uploads/2017/11/Shape3.png') no-repeat center;
+  background-size: cover;
+}
+
+.five-page {
+  background: url('https://www.voltmobi.com/wp-content/uploads/15.79.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.six-page {
+  background: url('http://mkdg.ru/img/21.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.seven-page {
+  background: url('https://www.kv.by/sites/default/files/pictures/mainimage/2017/07/imt.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.eight-page {
+  background: url('https://impulse-design.com.ua/images/razrabotka-dizajna-sajta.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.nine-page {
+  background: url('https://habrastorage.org/storage2/01b/714/825/01b71482505d745350193a9e57900e73.png') no-repeat center;
+  background-size: cover;
+}
+
+.project-card__info {
+  padding: 19px 13px;
+}
+
+.project-category {
+  display: block;
+  font-size: 12px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.aboutMe {
+  padding-top: 175px;
+  padding-bottom: 100px;
+  background: url('https://wmpics.pics/di-S0QBN060.jpg') left bottom no-repeat;
+  background-size: contain;
+}
+
+.aboutMe-info {
+  margin-left: 50%;
+}
+
+.aboutme-title {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #2b2a2c;
+  font-weight: 800;
+}
+
+.aboutme-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #717072;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.aboutme-buttons {
+  margin-left: 50%;
+  margin-top: 70px;
+}
+
+.button-prim {
+  color: #fff;
+  margin-right: 17px;
+}
+
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #8d8d8e;
+  font-size: 14px;
+}
+
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+  
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+}
+
+.footer-menu__link:after {
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  height: 2px;
+  width: 0%;
+  margin-top: 10px;
+  background-color: #8d8d8e;
+  transition: width .3s ease-in-out;
+}
+
+.footer-menu__link:hover:after {
+    width: 100%;
+}
+
+.footer-button {
+  text-decoration: uppercase;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+   .project-card {
+    width: 48%;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .menu-list a {
+    font-size: 12px;
+  }
+  .menu-button {
+    font-size: 12px;
+  }
+  .footer-menu a {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+   .project-card {
+    width: 95%;
+    margin: 50px auto;
+  }
+  .description_small {
+    font-size: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 1300px;
+    padding-top: 30px;
+  }
+  .footer-menu a {
+    margin-right: 9px;
+    font-size: 13px;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+  .footer-button {
+    padding: 8px 18px;
+  }
+  .aboutMe {
+    padding-bottom: 1300px;
+    padding-top: 30px;
+  }
+  .projects {
+    padding: 97px 0 40px 0;
+  }
+
+  .aboutMe-info {
+    text-align: center;
+    margin: 0;
+  }
+  .aboutme-title {
+    margin-top: 0;
+  }
+  .aboutme-text {
+    font-size: 15px;
+  }
+  .aboutme-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+  .button-prim {
+    margin-bottom: 0;
+  }
+
+}
